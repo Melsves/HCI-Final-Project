@@ -101,10 +101,10 @@ namespace GoogleVR.HelloVR
             }
             Destroy(gameObject);
 
-            gameObject.SetActive(true);
-            SetGazedAt(true);
+            gameObject.SetActive(false);
+            SetGazedAt(false);
             /////////// my code begin
-            isLookedAt = true;
+            isLookedAt = false;
 
         }
         void Update()
@@ -114,6 +114,7 @@ namespace GoogleVR.HelloVR
                 lookTimer += Time.deltaTime;
                 if (lookTimer > timerDuration)
                 {
+                    lookTimer = 0f;
                     Destroy(gameObject);
                 
 
