@@ -1830,6 +1830,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1930413007}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &216249695 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: cfef738579cd02c40b3b1d63e67b0f84,
@@ -1855,6 +1856,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
 --- !u!4 &216833506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469694, guid: 41d1cac196452694fb10f2476db79e6e,
@@ -5595,10 +5598,13 @@ GameObject:
   - component: {fileID: 458352400}
   - component: {fileID: 458352404}
   - component: {fileID: 458352405}
+<<<<<<< HEAD
   - component: {fileID: 458352403}
   - component: {fileID: 458352402}
   - component: {fileID: 458352407}
   - component: {fileID: 458352406}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
   m_Layer: 0
   m_Name: PLAYER
   m_TagString: Untagged
@@ -5617,7 +5623,11 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_Height: 3.8
+=======
+  m_Height: 3.5
+>>>>>>> f5a74dd... Initial Project Aniela
   m_Radius: 0.6
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -5632,11 +5642,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458352399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -0.87, y: 2.21, z: -4.93}
+=======
+  m_LocalPosition: {x: -9, y: 3.23, z: -0.28}
+>>>>>>> f5a74dd... Initial Project Aniela
   m_LocalScale: {x: 1, y: 1.2041, z: 1}
   m_Children:
   - {fileID: 787135265}
   - {fileID: 1813596908}
+<<<<<<< HEAD
   - {fileID: 1885233025}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -5671,6 +5686,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> f5a74dd... Initial Project Aniela
 --- !u!23 &458352404
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5725,6 +5745,7 @@ MonoBehaviour:
   vrCamera: {fileID: 0}
   toggleAngle: 25
   speed: 5
+<<<<<<< HEAD
 --- !u!65 &458352406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5750,6 +5771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b25ea00d65f3942b0644fd47fda42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
 --- !u!4 &472660509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465744, guid: f3a954679d4d04b49953424fc6bf526c,
@@ -8915,7 +8938,10 @@ GameObject:
   - component: {fileID: 787135265}
   - component: {fileID: 787135264}
   - component: {fileID: 787135263}
+<<<<<<< HEAD
   - component: {fileID: 787135266}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8962,7 +8988,11 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
+<<<<<<< HEAD
     m_Bits: 55
+=======
+    m_Bits: 4294967295
+>>>>>>> f5a74dd... Initial Project Aniela
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -8981,14 +9011,20 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787135262}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.45, z: 0}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02, y: 1.02, z: 0.17}
+>>>>>>> f5a74dd... Initial Project Aniela
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 802565669}
   m_Father: {fileID: 458352401}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &787135266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9003,6 +9039,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   playerBody: {fileID: 458352401}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
 --- !u!4 &802565669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 482300, guid: 60270cf52a5e94998a5a335989159738,
@@ -10532,10 +10570,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_Prefab
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
     - target: {fileID: 400000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -10554,7 +10595,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 20.24
+=======
+      value: 20.703646
+>>>>>>> f5a74dd... Initial Project Aniela
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10616,6 +10661,7 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: dea376d96a33e084bb54684d0922971f, type: 2}
+<<<<<<< HEAD
     - target: {fileID: 6500002, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_Size.x
       value: 9.603964
@@ -10636,6 +10682,8 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
 --- !u!1001 &964072191
@@ -15696,10 +15744,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GvrControllerPointer
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 555767533, guid: 34c21f523e72f45509a4e37ed0293c3b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
     - target: {fileID: 1820761120, guid: 34c21f523e72f45509a4e37ed0293c3b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -15744,6 +15795,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 114000013128025656, guid: 34c21f523e72f45509a4e37ed0293c3b,
         type: 3}
       propertyPath: m_Enabled
@@ -15754,6 +15806,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34c21f523e72f45509a4e37ed0293c3b, type: 3}
 --- !u!1001 &1472638611
@@ -19195,6 +19249,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884131799}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1 &1885233024
 GameObject:
   m_ObjectHideFlags: 0
@@ -19274,6 +19329,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885233024}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> f5a74dd... Initial Project Aniela
 --- !u!1 &1885404687
 GameObject:
   m_ObjectHideFlags: 0
