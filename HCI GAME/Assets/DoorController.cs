@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
-   private void OnTriggerStay(Collider other)
+    Animator _dooranim;
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "SF_Door")
-        {
-            Animator anim = other.GetComponentInChildren<Animator>();
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                anim.SetTrigger("OpenClose");
-            }
-            
-        }
+        _dooranim.SetBool("character_nearby", true);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        _dooranim.SetBool("character_nearby", false);
+    }
+    void Start()
+    {
+        _dooranim = this.transform.parent.GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+
     }
 }
