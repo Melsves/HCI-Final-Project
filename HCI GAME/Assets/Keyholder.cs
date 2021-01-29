@@ -24,22 +24,22 @@ public class Keyholder : MonoBehaviour
         return keyList.Contains(keyType);
     }
 
+    public void Room2()
+    {
+        keyList.Add(Key.KeyType.Red);
+    }
+
     private void OnTriggerEnter(Collider collider)
     {
-        Key key = collider.GetComponent<Key>();
-        if(key != null)
-        {
-            AddKey(key.GetKeyType());
-            
-        }
+
 
         DoorController dc = collider.GetComponent<DoorController>();
-        if(dc != null)
+        if (dc != null & ContainsKey(dc.GetKeyType()))
         {
             dc.locked = false;
-            RemoveKey(key.GetKeyType());
+            RemoveKey(dc.GetKeyType());
         }
     }
 
-    
+
 }
