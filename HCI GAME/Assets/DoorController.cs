@@ -8,7 +8,7 @@ public class DoorController : MonoBehaviour
     public AudioSource playSound;
     public AudioSource tut_sound;
     bool played_once = false;
-    public bool locked;
+    public bool locked = true;
     public int minLevel = 0;
     public int currentLevel;
     public levelBar levelBar;
@@ -50,7 +50,6 @@ public class DoorController : MonoBehaviour
         _dooranim = this.transform.parent.GetComponent<Animator>();
         currentLevel = minLevel;
         levelBar.SetMinLevel(minLevel);
-        locked = true;
     }
 
     void Update()
