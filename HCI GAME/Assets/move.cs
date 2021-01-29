@@ -14,6 +14,7 @@ public class move : MonoBehaviour
 
     public void Update()
     {
+
         this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
 
         Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);

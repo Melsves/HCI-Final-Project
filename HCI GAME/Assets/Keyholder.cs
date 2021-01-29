@@ -27,19 +27,19 @@ public class Keyholder : MonoBehaviour
     private void OnTriggerEnter(Collider collider)
     {
         Key key = collider.GetComponent<Key>();
-        if(key != null)
+        if (key != null)
         {
             AddKey(key.GetKeyType());
-            
+            Destroy(key);
         }
 
         DoorController dc = collider.GetComponent<DoorController>();
-        if(dc != null)
+        if (dc != null & ContainsKey(dc.GetKeyType()))
         {
             dc.locked = false;
             RemoveKey(key.GetKeyType());
         }
     }
 
-    
+
 }

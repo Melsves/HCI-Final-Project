@@ -33,7 +33,7 @@ public class DoorController : MonoBehaviour
                 Addlevel(1);
             }
         }
-        
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -43,13 +43,14 @@ public class DoorController : MonoBehaviour
             _dooranim.SetBool("character_nearby", false);
             playSound.Play();
         }
-        
+
     }
     void Start()
     {
         _dooranim = this.transform.parent.GetComponent<Animator>();
         currentLevel = minLevel;
         levelBar.SetMinLevel(minLevel);
+        locked = true;
     }
 
     void Update()

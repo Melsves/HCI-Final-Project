@@ -21,11 +21,6 @@ public class PlayerGrab : MonoBehaviour
         {
             if (!inHands)
             {
-                if (key1 != null)
-                {
-                    Destroy(key1);
-                }
-                
                 inHands = true;
             }
             else if (inHands)
